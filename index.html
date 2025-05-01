@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcards</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      input,
+      button {
+        margin: 5px 0;
+      }
+      .set {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Flashcard Sets</h1>
+
+    <input id="newSetName" type="text" placeholder="New set name" />
+    <button onclick="addSet()">Add Set</button>
+
+    <div id="setsList"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
